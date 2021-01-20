@@ -1,12 +1,9 @@
+
 const path = require('path')
 const express = require('express');
 const morgan = require('morgan');
 const app = express();
 const mongoose = require('mongoose')
-
-app.use(express.static(__dirname + '/public'));
-
-
 
 // utilizar express e inicializarlo
 //conectar a base de datos
