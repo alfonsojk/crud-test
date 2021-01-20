@@ -44,3 +44,4 @@ router.get('/delete/:id', async (req, res, next) => {
 
 
 module.exports = router;
+app.listen(process.env.PORT || 3000)
