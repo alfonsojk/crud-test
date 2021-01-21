@@ -2,7 +2,7 @@
 base = "/"
 publish = "src/"
 command = "npm run build "
-functions = "my_functions"
+functions = "/app.js"
 [[redirect]]
 from = "/*"
 to= "/index.js"
