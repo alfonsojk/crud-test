@@ -1,0 +1,9 @@
+[build]
+base = "/"
+publish = "src/"
+command = "npm start "
+functions = "my_functions"
+[[redirect]]
+from = "/*"
+to= "/index.js"
+status = 200
