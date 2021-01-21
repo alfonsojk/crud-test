@@ -1,7 +1,7 @@
 [build]
 base = "/"
 publish = "src/"
-command = "npm start "
+command = "npm run build "
 functions = "my_functions"
 [[redirect]]
 from = "/*"
